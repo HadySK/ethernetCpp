@@ -76,18 +76,6 @@ public:
         frame.insert(frame.end(),
              reinterpret_cast<uint8_t*>(&netTypeVar),
              reinterpret_cast<uint8_t*>(&netTypeVar) + 2);
-             
-
-         //############################
-        //############################
-        //############################
-        std::cout << std::hex <<  "Ethertype "<< ethertype << std::endl;
-        std::cout << std::hex  << "netTypeVar "<< netTypeVar << std::endl;
-        std::cout << std::dec<< std::endl;
-        int rr=0;
-        //std::cin>> rr;
-
-        //############################
 
         frame.insert(frame.end(), payload.begin(), payload.end());
 

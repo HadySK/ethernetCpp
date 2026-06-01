@@ -103,7 +103,7 @@ public:
 
         std::cout << "=== Layer 2 Receiver on " << interface << " ===\n";
         std::cout << "Showing Custom (0x88b5) + Ping packets\n";
-        std::cout << "Print delay: " << delay_ms << " ms\n";
+        std::cout << "Delay: " << delay_ms << " ms\n";
         std::cout << "Press Ctrl+C to stop\n\n";
 
         while (true) {
